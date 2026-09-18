@@ -1,2 +1,0 @@
-# CineLog
-Fully stacked
