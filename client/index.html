@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CineLog - Your Personal Cinema Journal & Tracker</title>
+
+  <!-- CSS Stylesheets -->
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/variables.css">
+  <link rel="stylesheet" href="css/global.css">
+  <link rel="stylesheet" href="css/navbar.css">
+  <link rel="stylesheet" href="css/cards.css">
+</head>
+
+<body>
+
+  <!-- Navigation Bar -->
+  <header class="navbar">
+    <div class="container nav-container">
+      <a href="index.html" class="brand-logo">
+        <img src="assets/images/Screenshot 2026-08-12 011328.png" alt="CineLog Logo">
+      </a>
+      <nav class="nav-links">
+        <a href="index.html" class="nav-link active">Home</a>
+        <a href="search.html" class="nav-link">Search</a>
+        <a href="watchlist.html" class="nav-link">Watchlist</a>
+        <a href="history.html" class="nav-link">Watched</a>
+      </nav>
+      <div class="nav-actions">
+        <a href="login.html" class="btn btn-secondary">Sign In</a>
+      </div>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero-section">
+    <div class="container">
+      <div class="hero-content">
+        <h1 class="hero-title">Track, Log & Share <span class="highlight-text">Your Movie Journey</span></h1>
+        <p class="hero-description">
+          Keep track of every masterpiece you watch, organize your ultimate watchlist, rate films, write private notes,
+          and share your unique taste with friends.
+        </p>
+
+        <!-- Search Box Form -->
+        <form class="hero-search-box" action="search.html" method="GET">
+          <input type="text" name="query" placeholder="Search any movie, director, or actor..." required
+            autocomplete="off">
+          <button type="submit" class="btn btn-primary" style="padding: 0.65rem 1.25rem;">
+            🔍 Search
+          </button>
+        </form>
+
+        <div>
+          <a href="search.html" class="btn btn-secondary">🍿 Browse All Movies</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Share & Memories Section (Replaces Trending Grid on Landing Page) -->
+  <section class="features-section">
+    <div class="container">
+      <h2 class="section-title">Share Memories & Cinematic Experiences</h2>
+      <p
+        style="color: var(--text-secondary); max-width: 650px; font-size: 1.05rem; line-height: 1.6; margin-top: -0.5rem;">
+        Capture the emotion of every film. Write personal notes, save your private ratings, and share unforgettable
+        cinema moments with friends and loved ones.
+      </p>
+
+      <div class="feature-grid">
+        <!-- Feature 1 -->
+        <div class="feature-card">
+          <div class="feature-icon">🎬</div>
+          <h3 class="feature-title">Personal Movie Journal</h3>
+          <p class="feature-desc">
+            Mark movies as watched, log viewing dates, rate out of 5 stars, and keep private notes for every film you
+            experience.
+          </p>
+        </div>
+
+        <!-- Feature 2 -->
+        <div class="feature-card">
+          <div class="feature-icon">📌</div>
+          <h3 class="feature-title">Smart Watchlist</h3>
+          <p class="feature-desc">
+            Save movies you want to watch later into your isolated personal watchlist with zero duplicate clutter.
+          </p>
+        </div>
+
+        <!-- Feature 3 -->
+        <div class="feature-card">
+          <div class="feature-icon">✨</div>
+          <h3 class="feature-title">Share Cinema Magic</h3>
+          <p class="feature-desc">
+            Generate clean shareable links for your personal movie reviews & ratings to send to friends, while keeping
+            your private watchlist safe.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer
+    style="border-top: 1px solid var(--glass-border); padding: 2rem 0; text-align: center; color: var(--text-secondary); font-size: 0.95rem;">
+    <div class="container">
+      <p><strong>CineLog.</strong> Made with Cinemagic ✨</p>
+    </div>
+  </footer>
+
+</body>
+
+</html>
