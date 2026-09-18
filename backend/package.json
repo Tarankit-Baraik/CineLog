@@ -1,0 +1,22 @@
+{
+  "name": "cinelog-backend",
+  "version": "1.0.0",
+  "private": true,
+  "description": "CineLog backend - Express API proxying TMDB/OMDb, MongoDB for user activity",
+  "main": "src/server.js",
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "start": "node src/server.js",
+    "test": "node --test"
+  },
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "dotenv": "^16.4.5",
+    "express": "^5.0.1",
+    "google-auth-library": "^11.0.2",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.5.0"
+  }
+}
